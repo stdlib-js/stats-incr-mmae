@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mmae",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compute a moving mean absolute error (MAE) incrementally.",
   "license": "Apache-2.0",
   "author": {
