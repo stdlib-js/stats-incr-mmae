@@ -30,10 +30,14 @@ For a window of size `W`, the [mean absolute error][mean-absolute-error] is defi
 
 <!-- <equation class="equation" label="eq:mean_absolute_error" align="center" raw="\operatorname{MAE} = \frac{1}{W} \sum_{i=0}^{W-1} |y_i - x_i|" alt="Equation for the mean absolute error."> -->
 
-<div class="equation" align="center" data-raw-text="\operatorname{MAE} = \frac{1}{W} \sum_{i=0}^{W-1} |y_i - x_i|" data-equation="eq:mean_absolute_error">
+```math
+\operatorname{MAE} = \frac{1}{W} \sum_{i=0}^{W-1} |y_i - x_i|
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\operatorname{MAE} = \frac{1}{W} \sum_{i=0}^{W-1} |y_i - x_i|" data-equation="eq:mean_absolute_error">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@2fd94e331f96b2984303ca92fad16757cfc5fdcb/lib/node_modules/@stdlib/stats/incr/mmae/docs/img/equation_mean_absolute_error.svg" alt="Equation for the mean absolute error.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,14 +45,30 @@ For a window of size `W`, the [mean absolute error][mean-absolute-error] is defi
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-mmae
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@deno/mod.js';
+var incrmmae = require( '@stdlib/stats-incr-mmae' );
 ```
 
 #### incrmmae( window )
@@ -113,8 +133,8 @@ m = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var incrmmae = require( '@stdlib/stats-incr-mmae' );
 
 var accumulator;
 var v1;
@@ -162,7 +182,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -206,7 +226,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -226,11 +246,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae/tree/deno
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae
 
-[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme/tree/deno
+[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/deno
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
 
 <!-- </related-links> -->
 
