@@ -63,6 +63,11 @@ For a window of size `W`, the [mean absolute error][mean-absolute-error] is defi
 ## Usage
 
 ```javascript
+import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mmae/tags). For example,
+
+```javascript
 import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@v0.1.1-deno/mod.js';
 ```
 
@@ -129,7 +134,7 @@ m = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@v0.1.1-deno/mod.js';
+import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@deno/mod.js';
 
 var accumulator;
 var v1;
