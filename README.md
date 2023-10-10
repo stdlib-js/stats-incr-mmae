@@ -63,6 +63,11 @@ For a window of size `W`, the [mean absolute error][mean-absolute-error] is defi
 ## Usage
 
 ```javascript
+import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mmae/tags). For example,
+
+```javascript
 import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@v0.1.1-esm/index.mjs';
 ```
 
@@ -134,7 +139,7 @@ m = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@v0.1.1-esm/index.mjs';
+import incrmmae from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mmae@esm/index.mjs';
 
 var accumulator;
 var v1;
